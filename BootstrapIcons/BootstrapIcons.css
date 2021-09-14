@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-twitter::before { content: "\f5ef"; }
+.bi-facebook::before { content: "\f344"; }
+.bi-linkedin::before { content: "\f472"; }
+.bi-instagram::before { content: "\f437"; }
+.bi-emoji-smile::before { content: "\f327"; }
+.bi-card-list::before { content: "\f227"; }
+.bi-list-check::before { content: "\f473"; }
+.bi-list-nested::before { content: "\f474"; }
+.bi-list-ol::before { content: "\f475"; }
+.bi-list-task::before { content: "\f477"; }
+.bi-list-ul::before { content: "\f478"; }
+.bi-list::before { content: "\f479"; }
+.bi-view-list::before { content: "\f605"; }
+.bi-journal-richtext::before { content: "\f443"; }
+.bi-headset::before { content: "\f414"; }
+.bi-people::before { content: "\f4d0"; }
+.bi-briefcase-fill::before { content: "\f1cb"; }
+.bi-briefcase::before { content: "\f1cc"; }
+.bi-card-checklist::before { content: "\f224"; }
+.bi-bar-chart-fill::before { content: "\f17a"; }
+.bi-bar-chart-line-fill::before { content: "\f17b"; }
+.bi-bar-chart-line::before { content: "\f17c"; }
+.bi-bar-chart-steps::before { content: "\f17d"; }
+.bi-bar-chart::before { content: "\f17e"; }
+.bi-binoculars-fill::before { content: "\f18e"; }
+.bi-binoculars::before { content: "\f18f"; }
+.bi-brightness-high::before { content: "\f1d2"; }
+.bi-calendar4-week::before { content: "\f217"; }
+.bi-geo-alt::before { content: "\f3e8"; }
+.bi-envelope::before { content: "\f32f"; }
+.bi-phone-fill::before { content: "\f4e2"; }
+.bi-phone-landscape-fill::before { content: "\f4e3"; }
+.bi-phone-landscape::before { content: "\f4e4"; }
+.bi-phone::before { content: "\f4e7"; }
+.bi-arrow-up-short::before { content: "\f145"; }
